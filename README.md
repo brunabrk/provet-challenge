@@ -33,7 +33,6 @@ Make sure your Docker is up and running
 
 ```
 npm run test:e2e:docker
-
 ```
 
 **Run Lint Tests**:

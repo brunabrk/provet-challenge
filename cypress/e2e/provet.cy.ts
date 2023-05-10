@@ -1,5 +1,5 @@
 describe("Request a demo feature", () => {
-  it("Sucessfully request a demo with only the mandatory fields", () => {
+  it("Sucessfully request a demo with all fields", () => {
     cy.visit("/");
     cy.getByIdStartsWith("firstname").type("Maria");
     cy.getByIdStartsWith("lastname").type("De Almeida");
